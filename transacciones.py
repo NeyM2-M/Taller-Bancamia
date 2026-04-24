@@ -79,7 +79,7 @@ print(f"Total Aprobadas:  {aprobadas}")
 print(f"Total Rechazadas: {rechazadas}")
 print(f"Rechazadas por Usuario Inactivo:  {RechazadoInactivo}")
 print(f"Rechazadas por Monto Invalido:   {RechazadoMontoInvalido}")
-print(f"Rechazadas por Monto Superado:   {RechazadoSuperaLimite}")
+print(f"Rechazadas por Monto Supera el Límite:   {RechazadoSuperaLimite}")
 print(f"Rechazadas por Saldo Insuficiente:   {RechazadoSaldoInsuficiente}")
 
 if MontosAprobados:
