@@ -1,15 +1,12 @@
-import random #para los valores aleatorios
+import random 
 
-#Pedir al usuario cantidad de transacciones
 numeroTransacciones = int(input("Ingrese cantidad de transacciones a realizar:   "))
 #lista de nombres
 listaNombres = ["Sophie Karlic", "Jose Gutierrez", "Ana Romero", "Luis Gallardo"]
 
-#Para resumen transacciones
 aprobadas = 0
 rechazadas = 0
 
-#Motivo Rechazos
 RechazadoInactivo = 0
 RechazadoMontoInvalido = 0
 RechazadoSuperaLimite = 0
