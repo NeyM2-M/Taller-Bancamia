@@ -4,7 +4,7 @@ aprobadas = 0
 rechazadas = 0
 sospechoso = 0
 
-cantidadNumeros = int(input("Ingrese un número:  "))
+cantidadNumeros = int(input("Ingrese cuántos números aleatorios quiere generar:  "))
 for i in range (cantidadNumeros):
     numerosAleatorios = random.randint(100000, 999999)
 
