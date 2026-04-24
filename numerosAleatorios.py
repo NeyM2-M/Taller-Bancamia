@@ -6,7 +6,7 @@ sospechoso = 0
 
 cantidadNumeros = int(input("Ingrese cuántos números aleatorios quiere generar:  "))
 for i in range (cantidadNumeros):
-    numerosAleatorios = random.randint(100000, 999999)
+    numerosAleatorios = random.randint(000000, 999999)
 
     if numerosAleatorios %10 == 5:
         print(f" {numerosAleatorios} - Sospechoso")
