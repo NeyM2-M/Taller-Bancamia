@@ -20,7 +20,7 @@ RechazosPorUsuario = {}
 
 #generar datos aleatorios
 for i in range(numeroTransacciones):
-    numeroTransaccion = random.randint (10000000, 99999999)
+    numeroTransaccion = random.randint (00000000, 99999999)
     nombreUsuario = random.choice(listaNombres)
     saldoDisponible = random.randint(100000, 5000000)
     montoTransferir = random.randint(10000, 3000000)
